@@ -1794,19 +1794,31 @@ padding-left: 80px; box-sizing: border-box;
 	padding-top:42px;
 	text-align:center;
 }
+@media only screen and (max-width:1780px) {
+	.room-cont {
+		width: 870px;
+	}
+
+}
 .room-cont .thumb-list02 {
 	display:inline-block;
 	overflow:hidden;
-	margin:0 -25px;
+	margin: 0 -25px;
 	font-size:0;
 }
 .room-cont .thumb-list02 .item-thumb {
-	display:inline-block;
 	float:left;
 	width:410px;
-	margin:0 25px;
+	margin: 0 25px;
 	padding-bottom:100px;
 	text-align:center;
+}
+
+}
+@media only screen and (max-width:1780px) {
+	.room-cont {
+		width: 870px;
+	}
 }
 .room-cont .thumb-list02 .item-thumb .img-box {}
 .room-cont .thumb-list02 .item-thumb .text-box {
