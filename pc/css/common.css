@@ -1400,6 +1400,7 @@ padding-left: 80px; box-sizing: border-box;
 }
 
 /* customer center */
+.customer {}
 .customer {padding-top: 88px;}
 .white-wrap {
 	width: 1000px;
