@@ -1791,64 +1791,56 @@ padding-left: 80px; box-sizing: border-box;
 }
 
 /* room*/
-.room-cont {
+.room .room-cont {
 	max-width:1330px;
 	margin:0 auto;
 	padding-top:42px;
 	text-align:center;
 }
 @media only screen and (max-width:1780px) {
-	.room-cont {
+	.room .room-cont {
 		width: 870px;
 	}
 
 }
-.room-cont .thumb-list02 {
+.room .room-cont .thumb-list02 {
 	display:inline-block;
 	overflow:hidden;
 	margin: 0 -25px;
 	font-size:0;
 }
-.room-cont .thumb-list02 .item-thumb {
+.room .room-cont .thumb-list02 .item-thumb {
 	float:left;
 	width:410px;
 	margin: 0 25px;
 	padding-bottom:100px;
 	text-align:center;
 }
-
-}
-@media only screen and (max-width:1780px) {
-	.room-cont {
-		width: 870px;
-	}
-}
-.room-cont .thumb-list02 .item-thumb .img-box {}
-.room-cont .thumb-list02 .item-thumb .text-box {
+.room .room-cont .thumb-list02 .item-thumb .text-box {
 	padding:32px 30px;
 	background-color:#fff;
 	box-sizing:border-box;
 }
-.room-cont .thumb-list02 .item-thumb .text-box .tit {
+.room .room-cont .thumb-list02 .item-thumb .text-box .tit {
 	display:block;
 	color:#222;
 	font-size:24px;
 	font-weight:normal;
 	line-height:36px;
 }
-.room-cont .thumb-list02 .item-thumb .text-box p {
+.room .room-cont .thumb-list02 .item-thumb .text-box p {
 	margin-top:12px;
 	color:#555;
 	font-size:15px;
 	font-weight:normal;
 	line-height:30px;
 }
-.room-cont .thumb-list02 .item-thumb .text-box .menu-box {
+.room .room-cont .thumb-list02 .item-thumb .text-box .menu-box {
 	overflow:hidden;
 	margin-top:18px;
 	font-size:0;
 }
-.room-cont .thumb-list02 .item-thumb .text-box .menu-box a {
+.room .room-cont .thumb-list02 .item-thumb .text-box .menu-box a {
 	display:inline-block;
 	position:relative;
 	width:49%;
@@ -1861,7 +1853,7 @@ padding-left: 80px; box-sizing: border-box;
 	box-sizing:border-box;
 	text-align:center;
 }
-.room-cont .thumb-list02 .item-thumb .text-box .menu-box a:before {
+.room .room-cont .thumb-list02 .item-thumb .text-box .menu-box a:before {
 	content:'';
 	display:block;
 	position:absolute;
@@ -1870,10 +1862,45 @@ padding-left: 80px; box-sizing: border-box;
 	height:50px;
 	background-color:#ddd;
 }
-.room-cont .thumb-list02 .item-thumb .text-box .menu-box a:first-child:before {display:none;}
-.room-cont .thumb-list02 .item-thumb .text-box .menu-box .more {
+.room .room-cont .thumb-list02 .item-thumb .text-box .menu-box a:first-child:before {display:none;}
+.room .room-cont .thumb-list02 .item-thumb .text-box .menu-box .more {
 	background:url(../images/icon/ico_more.png)no-repeat center 11px;
 }
-.room-cont .thumb-list02 .item-thumb .text-box .menu-box .reservation {
+.room .room-cont .thumb-list02 .item-thumb .text-box .menu-box .reservation {
 	background:url(../images/icon/ico_reservation.png)no-repeat center 11px;
 }
+.room .room-view {
+	max-width:1470px;
+	margin:0 auto;
+}
+.room .room-view .txt-area {
+	text-align:center;
+}
+.room .room-view .txt-area .txt-list {
+	overflow:hidden;
+}
+.room .room-view .txt-area .txt-list .item {
+	float:left;
+	position:relative;
+	margin-left:15px;
+	padding-left:14px;
+}
+.room .room-view .txt-area .txt-list .item:first-child {
+	margin-left:0;
+	padding-left:0;
+}
+.room .room-view .txt-area .txt-list .item:before {
+	content:'';
+	display:block;
+	position:absolute;
+	left:0; top:0;
+	width:1px;
+	height:15px;
+	background-color:#ccc:
+}
+.room .room-view .txt-area .txt-list .item:first-child:before {display:none;}
+.room .room-view .txt-area .txt {}
+.room .room-view .img-area {
+
+}
+.room .room-view .img-area img {width:100%; vertical-align:top;}
