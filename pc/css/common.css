@@ -616,7 +616,10 @@ article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,sec
 	font-size: 15px;
 	color:#555;
 }
-
+/* 마진 */
+.mgt0 {margin-top:0px !important;}
+.mgt25 {margin-top:25px !important;}
+.mgt55 {margin-top:55px !important;}
 /* -----------------------------------------------------------------------------------------------------------
 	타이틀
 ----------------------------------------------------------------------------------------------------------- */
@@ -1803,6 +1806,9 @@ padding-left: 80px; box-sizing: border-box;
 	}
 
 }
+.container .room .content {
+	padding-top:90px;
+}
 .room .room-cont .thumb-list02 {
 	display:inline-block;
 	overflow:hidden;
@@ -1874,16 +1880,24 @@ padding-left: 80px; box-sizing: border-box;
 	margin:0 auto;
 }
 .room .room-view .txt-area {
+	position:relative;
+	margin-top:30px;
+	padding-bottom:55px;
 	text-align:center;
 }
 .room .room-view .txt-area .txt-list {
 	overflow:hidden;
+	display:inline-block;
 }
 .room .room-view .txt-area .txt-list .item {
 	float:left;
 	position:relative;
 	margin-left:15px;
 	padding-left:14px;
+	color:#555;
+	font-size:15px;
+	font-weight:normal;
+	line-height:26px;
 }
 .room .room-view .txt-area .txt-list .item:first-child {
 	margin-left:0;
@@ -1893,14 +1907,22 @@ padding-left: 80px; box-sizing: border-box;
 	content:'';
 	display:block;
 	position:absolute;
-	left:0; top:0;
+	left:0; top:5px;
 	width:1px;
 	height:15px;
-	background-color:#ccc:
+	background-color:#ccc;
 }
 .room .room-view .txt-area .txt-list .item:first-child:before {display:none;}
-.room .room-view .txt-area .txt {}
-.room .room-view .img-area {
-
+.room .room-view .txt-area .txt {
+	color:#555;
+	font-size:15px;
+	font-weight:normal;
+	line-height:30px;
 }
+.room .room-view .txt-area .btn-area {
+	position:absolute;
+	right:0; bottom:30px;
+	margin-top:0;
+}
+.room .room-view .img-area {margin-top:100px;}
 .room .room-view .img-area img {width:100%; vertical-align:top;}
