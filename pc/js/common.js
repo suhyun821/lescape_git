@@ -1,7 +1,7 @@
 $(document).ready(function(){
 	gnbHeight(); //gnb 높이값(브라우저 높이에따라 스크롤)
 	selectStyled(); // 디자인 셀렉트
-	dotdotdot(); //말줄임
+
 	/* ===========================================================================================================
 		메인
 	=========================================================================================================== */
@@ -229,6 +229,10 @@ $(document).ready(function(){
 });
 
 $(window).load(function(){
+	/* 멀티 말줄임 */
+	$('.line-2').each(function(){
+		$(this).dotdotdot();
+	});
 });
 
 $(window).resize(function(){
@@ -327,14 +331,4 @@ function reSelect(){
   var val = $(this).closest('.select-box').find('select option:first-child').val();
   $(this).html(title).closest('.select-box').attr('value', title);
  });
-}
-
-/* 말줄임 */
-function dotdotdot(){
-	(function($) {
-		$('.dotLine2').dotdotdot();// 2 줄
-		$('.dotLine3').dotdotdot();// 3 줄
-		$('.dotLine4').dotdotdot();// 4 줄
-		$('.dotLine5').dotdotdot();// 5 줄
-	})(jQuery);
 }

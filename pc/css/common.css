@@ -701,7 +701,7 @@ article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,sec
 	padding: 0 30px;
 	font-size: 17px;
 	text-align: center;
-	line-height: 48px;
+	line-height: 45px;
 	box-sizing: border-box;
 	vertical-align: top;
 }
@@ -1677,7 +1677,6 @@ padding-left: 80px; box-sizing: border-box;
 .highlight .highlight-cont {
 	max-width:1000px;
 	margin:0 auto;
-	padding-bottom:100px;
 }
 .highlight .highlight-cont .thumb-list {margin-top:42px;}
 .highlight .highlight-cont .thumb-list .item-thumb {
@@ -1710,11 +1709,13 @@ padding-left: 80px; box-sizing: border-box;
 	white-space:nowrap;
 }
 .highlight .highlight-cont .thumb-list .item-thumb .text-box p {
+	width: 100%;
 	margin-top:11px;
 	color:#555;
 	font-size:15px;
 	font-weight:normal;
 	line-height:30px;
+	overflow: hidden;
 }
 .highlight .highlight-cont .thumb-list .item-thumb .text-box .date {
 	margin-top:7px;
@@ -1778,23 +1779,21 @@ padding-left: 80px; box-sizing: border-box;
 	box-sizing: border-box;
 }
 .highlight-cont .view-area .view-top {
-	overflow:hidden;
-	height:68px;
+	overflow: hidden;
+	min-height:68px;
 }
 .highlight-cont .view-area .view-top .view-tit-box {
 	float:left;
 }
 .highlight-cont .view-area .view-top .view-tit-box span {display:block;}
 .highlight-cont .view-area .view-top .view-tit-box .view-tit {
-	overflow:hidden;
 	width:610px;
 	color:#222;
 	font-size:26px;
 	font-weight:normal;
 	line-height:38px;
-	text-overflow:ellipsis;
-	white-space:nowrap;
 }
+.highlight-cont .view-area .view-top .view-tit-box.type2 .view-tit {width: 100%;}
 .highlight-cont .view-area .view-top .view-tit-box .view-date {
 	margin-top:8px;
 	color:#777;
@@ -1919,7 +1918,7 @@ padding-left: 80px; box-sizing: border-box;
 .room .room-view .txt-area {
 	position:relative;
 	margin-top:30px;
-	padding-bottom:55px;
+	padding-bottom:100px;
 	text-align:center;
 }
 .room .room-view .txt-area .txt-list {
