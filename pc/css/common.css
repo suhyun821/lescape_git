@@ -619,6 +619,7 @@ article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,sec
 /* 마진 */
 .mgt0 {margin-top:0px !important;}
 .mgt25 {margin-top:25px !important;}
+.mgt35 {margin-top:35px !important;}
 .mgt55 {margin-top:55px !important;}
 /* -----------------------------------------------------------------------------------------------------------
 	타이틀
@@ -1926,3 +1927,37 @@ padding-left: 80px; box-sizing: border-box;
 }
 .room .room-view .img-area {margin-top:100px;}
 .room .room-view .img-area img {width:100%; vertical-align:top;}
+.container .section.amenities {padding-bottom:0;}
+.container .amenities .content {
+	padding:90px 0 0 0;
+}
+.amenities .amenities-cont {
+	margin-top:45px;
+	padding:120px 0;
+	background:url(../images/temp/sub_bg_img01.jpg)no-repeat 0 0;
+	background-size:cover;
+	text-align:center;
+}
+.amenities .amenities-cont .amenities-area {
+	display:inline-block;
+	min-width:700px;
+	height:800px;
+	padding:40px;
+	background-color:#fff;
+	box-sizing:border-box;
+	text-align:center;
+}
+.amenities .amenities-cont .amenities-area .tit {
+	display:block;
+	color:#222;
+	font-size:18px;
+	font-weight:bold;
+	line-height:36px;
+}
+.amenities .amenities-cont .amenities-area p {
+	margin-top:20px;
+	color:#555;
+	font-size:15px;
+	font-weight:normal;
+	line-height:30px;
+}
